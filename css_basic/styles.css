@@ -1,12 +1,18 @@
 body {
     display: flex;
     flex-direction: column;
+    background-color: #828080;
   }
   
   main {
     display: flex;
     flex-direction: row;
     flex: auto;
+  }
+
+  .logo {
+    font-size: 2em;
+    color: #020000;
   }
   
   article {
@@ -17,6 +23,7 @@ body {
   aside {
     flex: 5;
     overflow-y: auto;
+    background-color: #828080;
   }
   
   table {
@@ -27,9 +34,9 @@ body {
   th, td {
     padding: 8px;
     text-align: left;
-    border-bottom: 1px solid #c0c0c0;
+    border-bottom: 1px solid #585858;
   }
   
   th {
-    background-color: #828080;
+    background-color: #5b4444;
   }
